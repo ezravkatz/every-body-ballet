@@ -1,7 +1,7 @@
 {
-  "name": "just-tech-news",
+  "name": "every-body-ballet",
   "version": "1.0.0",
-  "description": "a full stack tech blog",
+  "description": "a full stack ballet blogging website",
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -18,16 +18,20 @@
   },
   "homepage": "https://github.com/ezravkatz/just-tech-news#readme",
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "bcrypt": "^5.0.1",
+    "bootstrap": "^5.2.1",
     "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
+    "flowbite": "^1.5.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.23.0"
   },
   "devDependencies": {
-    "jest": "^29.0.3"
+    "jest": "^29.0.3",
+    "tailwindcss": "^3.1.8"
   }
 }
