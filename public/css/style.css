@@ -134,6 +134,10 @@ main {
   background-color: #F6A6BB;
 }
 
+.edit-post-form{
+  margin: 2em;
+}
+
 .post {
   margin-bottom: 2%;
   line-height: 150%;

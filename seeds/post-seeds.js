@@ -1,6 +1,6 @@
 const { Post } = require('../models');
 
-const postInfo = [
+const postdata = [
   {
     title: 'Dolor sit amet consectetur adipiscing elit duis tristique.',
     post_url: 'https://www.google.com/search/howsearchworks/how-search-works/organizing-information/',
@@ -14,7 +14,7 @@ const postInfo = [
   {
     title: 'Id ornare arcu odio ut sem nulla pharetra diam sit. ',
     post_url: 'https://ground.news/article/cc4aadeb-8087-4966-a96f-699a54e312d1',
-    user_id: 0009
+    user_id: 0003
   },
   {
     title: 'Augue ut lectus arcu bibendum.',
@@ -39,7 +39,7 @@ const postInfo = [
   {
     title: 'Habitasse platea dictumst vestibulum rhoncus est pellentesque elit.',
     post_url: 'https://techcrunch.com/2022/08/11/medical-simulation-platform-fundamentalvr-raises-20m-to-help-surgeons-learn-through-vr/',
-    user_id: 0009
+    user_id: 0003
   },
   {
     title: 'Nisl suscipit adipiscing bibendum est ultricies.',
@@ -49,7 +49,7 @@ const postInfo = [
   {
     title: 'Risus pretium.',
     post_url: 'https://gizmodo.com/spotify-concert-tickets-music-ticketmaster-1849394535',
-    user_id: 0008
+    user_id: 0007
   },
   {
     title: 'Fermentum dui faucibus in ornare quam.',
@@ -79,7 +79,7 @@ const postInfo = [
   {
     title: 'Pellentesque elit ullamcorper dignissim cras.',
     post_url: 'https://www.bbc.com/news/technology-62345306',
-    user_id: 0009
+    user_id: 0001
   },
   {
     title: 'Nunc sed velit dignissim sodales ut eu sem.',
@@ -103,6 +103,6 @@ const postInfo = [
   }
 ];
 
-const postSeeds = () => Post.bulkCreate(postInfo);
+const postSeeds = () => Post.bulkCreate(postdata);
 
 module.exports = postSeeds;
