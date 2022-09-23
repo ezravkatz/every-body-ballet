@@ -53,6 +53,10 @@ button:hover {
   background-color: #F6A6BB;
 }
 
+.signout-btn {
+  float: right;
+}
+
 .post-list {
   margin: 0;
   padding: 0;
